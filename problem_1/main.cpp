@@ -1,9 +1,13 @@
-/// Create a program that gets the name of the user and then outputs "Hello, <user>" where <user> is the name the user.
+/// Create a program that gets the name of the user and then outputs
+/// "Hello, <user>" where <user> is the name the user.
 
 #include <iostream>
+#include <string>
+
 
 int main()
 {
-    /// input your code here
-    return 0;
+    std::string username;
+    std::cin >> username;
+    std::cout << "Hello, " << username << std::endl;
 }
